@@ -190,6 +190,8 @@ Build dependencies and the Gecko engine.
 
 To run Reynard, open `Reynard.xcodeproj` in Xcode and build/run it from there.
 
+For a step-by-step guide to signing with your own developer account and installing on a device (including iOS 27), see [docs/build-and-sideload.md](docs/build-and-sideload.md).
+
 ## Development
 
 This project initially started out of curiosity. I wanted to see if I could get Gecko to run without the [BrowserEngineKit](https://developer.apple.com/documentation/browserenginekit) framework, so it could be further modified to support iOS versions as far back as possible. I got it working, and since then, I’ve been focusing on developing engine patches for better integration with iOS, fixing bugs, and turning Reynard into a full, usable browser.
